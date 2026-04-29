@@ -1,0 +1,28 @@
+[project]
+name = "music-recommender-mlops"
+version = "0.1.0"
+description = "Batch music recommendation system with MLOps practices"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "scipy",
+    "implicit",
+    "fastapi",
+    "uvicorn",
+    "mlflow",
+    "optuna",
+    "pydantic",
+    "pyyaml",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "mypy",
+]
+
+[tool.ruff]
+line-length = 100

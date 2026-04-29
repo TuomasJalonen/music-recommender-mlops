@@ -1,0 +1,10 @@
+data:
+  raw_path: data/raw/listening_history.tsv
+  processed_path: data/processed/interactions.parquet
+
+model:
+  name: popularity_baseline
+  top_k: 10
+
+evaluation:
+  test_size_days: 30
