@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project stuff:
+data/raw/
+data/processed/
+mlruns/
+models/
